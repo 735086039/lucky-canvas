@@ -140,7 +140,7 @@ export default class LuckyGrid extends Lucky {
    * 初始化属性计算
    */
   private initComputed (): void {
-    // 默认配置
+    // 默认配置1
     this.$computed(this, '_defaultConfig', () => {
       const config = {
         gutter: 5,
